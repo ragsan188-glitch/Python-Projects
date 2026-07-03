@@ -5,7 +5,7 @@ This repository documents my Python learning journey from beginner to advanced.
 ## Beginner
 
 - ✅ Escape Room Game
-
+- ✅ Number Guessing Game
 ## Intermediate
 
 ## Advanced
