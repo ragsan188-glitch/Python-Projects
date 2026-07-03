@@ -11,6 +11,7 @@ A beginner Python project where the computer randomly selects a number between 1
 - User input
 - Random module
 - Break statement
+
 ##What I Learned
 - Creating functions
 - Using loops effectively
