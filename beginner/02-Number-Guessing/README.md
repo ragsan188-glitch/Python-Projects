@@ -12,7 +12,7 @@ A beginner Python project where the computer randomly selects a number between 1
 - Random module
 - Break statement
 
-##What I Learned
+## What I Learned
 - Creating functions
 - Using loops effectively
 - Handling user input
