@@ -38,7 +38,7 @@ The player must solve puzzles behind different doors while managing limited live
 4. Run:
 
 ```bash
-python escape_room.py
+escape room.py
 ```
 
 ---
