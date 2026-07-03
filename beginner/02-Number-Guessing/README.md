@@ -15,5 +15,6 @@ A beginner Python project where the computer randomly selects a number between 1
 ## How to Run
 ```bash
 python number_guessing_game.py
+
 ## Author
 Ragul
