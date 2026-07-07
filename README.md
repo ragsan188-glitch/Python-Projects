@@ -9,6 +9,8 @@ This repository documents my Python learning journey from beginner to advanced.
 - ✅ Escape Room 2.0 Game
   
 ## Intermediate
+- ✅ STUDENT MANAGEMENT SYSTEM
+- ✅ INVENTORY AND BILLING MANAGEMENT SYSTEM
 
 ## Advanced
 
