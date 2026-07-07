@@ -2,9 +2,9 @@
 
 ## Overview
 
-The **Student Management System** is a console-based Python application designed to manage student records efficiently. It provides a menu-driven interface that allows users to add, view, search, update, and delete student information while demonstrating core Python programming concepts.
+The **Student Management System** is a console-based Python application developed to manage student records through a menu-driven interface. It allows users to add, view, search, update, delete, and sort student records while generating basic class statistics.
 
-This project was developed to strengthen programming fundamentals by implementing a complete CRUD-based application using dictionaries, functions, loops, and conditional statements.
+This project was built to strengthen core Python programming concepts such as functions, dictionaries, loops, conditional statements, and CRUD operations.
 
 ---
 
@@ -14,12 +14,20 @@ This project was developed to strengthen programming fundamentals by implementin
 * View all students
 * Search students by:
 
-  * Student ID
+  * Roll Number
   * Student Name
-* Update student information
+* Update student marks
 * Delete student records
-* Display student statistics
-* Menu-driven interface for easy navigation
+* Display class statistics:
+
+  * Class average marks
+  * Top-performing student
+  * Total number of students
+* Sort students by:
+
+  * Roll Number
+  * Student Name
+* Menu-driven interface
 
 ---
 
@@ -31,6 +39,8 @@ This project was developed to strengthen programming fundamentals by implementin
 * Nested Dictionaries
 * Loops
 * Conditional Statements
+* Lambda Functions
+* Built-in `sorted()` Function
 
 ---
 
@@ -73,10 +83,11 @@ python student_management.py
 1. Add Student
 2. View Students
 3. Search Student
-4. Update Student
+4. Update Marks
 5. Delete Student
-6. Student Statistics
-7. Exit
+6. Class Statistics
+7. Sort Students
+8. Exit
 ```
 
 ---
@@ -85,11 +96,10 @@ python student_management.py
 
 ```python
 students = {
-    101: {
-        "name": "Alice",
+    "101": {
+        "name": "alice",
         "age": 19,
-        "gender": "Female",
-        "department": "Computer Science",
+        "department": "computer science",
         "marks": 92
     }
 }
@@ -106,17 +116,19 @@ students = {
 * Nested Dictionaries
 * Iteration
 * Searching
+* Sorting using `lambda` and `sorted()`
 * Menu-Driven Programming
-* Data Manipulation
+* Data Processing
 
 ---
 
 ## Future Enhancements
 
-* File handling for persistent data storage
+* File handling for permanent data storage
 * Input validation using exception handling
 * Student grade calculation
 * Attendance management
+* GPA calculation
 * Database integration (SQLite/MySQL)
 * Object-Oriented Programming implementation
 * Graphical User Interface (GUI)
@@ -127,4 +139,4 @@ students = {
 
 **Ragul YS**
 
-This project was developed as part of my Python learning journey to strengthen programming fundamentals through practical implementation of a student record management application.
+This project was developed as part of my Python learning journey to strengthen programming fundamentals through the practical implementation of a student record management system.
